@@ -32,6 +32,20 @@ import { ReactComponent as webIcon3 } from "../assets/svg/services/Web Developme
 import { ReactComponent as webIcon4 } from "../assets/svg/services/UIUX Design.svg";
 import { AiFillAppstore } from "react-icons/ai";
 
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.webp";
+import ColdCreekcapImg from "../assets/web-development-portfolio/cold-creekcap.webp";
+import ThinkRealityImg from "../assets/web-development-portfolio/think-reality.webp";
+import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.webp";
+import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.webp";
+
+// Import all images at the top (App Development)
+import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.webp";
+import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.webp";
+import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.webp";
+import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.webp";
+import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.webp";
 export { logo };
 
 export const companyDetails = {
@@ -135,80 +149,68 @@ export const portfolio = {
     list: [
       {
         id: 1,
-        title: "Barbera",
-        link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
+        img: AkashMegaMartApp,
+        title: "Akash Mega Mart ",
+        link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
       },
       {
         id: 2,
-        title: "Rentop",
-        link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+        img: FeelItMobileApp,
+        title: "FeelIt Mobile App",
+        link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
       },
       {
         id: 3,
-        title: "Binfoclub",
-        link: "https://play.google.com/store/apps/details?id=com.binfoclub.app&pcampaignid=web_share",
+        img: KlikomicsMobileApp,
+        title: "Klikomics Mobile App",
+        link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
       },
       {
         id: 4,
-        title: "Prayer Times",
-        link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
-      },
-      {
-        id: 5,
-        title: "Evans Francis",
-        link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
-      },
-      {
-        id: 6,
-        title: "HOD",
-        link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
-      },
-      {
-        id: 7,
-        title: "AutoSnap",
+        img: AutoSnapMobileApp,
+        title: "AutoSnap Mobile App",
         link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
       },
       {
         id: 8,
-        title: "Klikomics",
-        link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
-      },
-      {
-        id: 9,
-        title: "Ocxee",
-        link: "https://apps.apple.com/in/app/ocxee/id1522856353",
-      },
-      {
-        id: 10,
-        title: "Dubai Travel Guide",
-        link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+        img: RentopBikeAndCarImgapp,
+        title: "Rentop Bike and Car",
+        link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
       },
     ],
   },
   webDevelopment: {
     icon: <FaGlobe size={30} />,
     list: [
-      { id: 1, title: "Leaderbridge", link: "https://www.leaderbridge.com" },
-      { id: 2, title: "Autopilot", link: "https://autopilot.io" },
-      { id: 3, title: "Gigzio", link: "https://gigzio.com" },
-      { id: 4, title: "FE Group", link: "https://fe.group" },
-      { id: 5, title: "Vtalkz", link: "https://vtalkz.com" },
-      { id: 6, title: "Think Realty", link: "https://thinkrealty.ae" },
-      { id: 7, title: "Bayut", link: "https://www.bayut.com" },
       {
-        id: 8,
-        title: "5G High Speed Internet",
+        id: 1,
+        img: FiveGHomesImg,
+        title: "5g Homes",
         link: "https://5ghighspeedinternet.co",
       },
       {
-        id: 9,
-        title: "Messina's Catering",
-        link: "https://messinascatering.com",
+        id: 3,
+        img: ColdCreekcapImg,
+        title: "Cold Creekcap",
+        link: "https://www.coldcreekcap.com",
       },
       {
-        id: 10,
-        title: "Cold Creek Capital",
-        link: "https://www.coldcreekcap.com",
+        id: 9,
+        img: ThinkRealityImg,
+        title: "Think Reality",
+        link: "https://thinkrealty.ae",
+      },
+      {
+        id: 90,
+        img: AkashMegaMart,
+        title: "Akash Mega Mart",
+        link: "https://akashmegamart.com/",
+      },
+      {
+        id: 91,
+        img: MidwamImmersive,
+        title: "Midwam ",
+        link: "https://www.midwam.com/en/about",
       },
     ],
   },
