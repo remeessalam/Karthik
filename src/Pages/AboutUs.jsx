@@ -17,34 +17,31 @@ const AboutUs = () => {
         <div data-aos="fade-up" className="space-y-4">
           <p className="uppercase text-primary text-start">Our Vision</p>
           <h3 className="section-heading">
-            Transforming Ideas into Digital Success.
+            Transforming Ideas into Intelligent Digital Solutions
           </h3>
           <HrLine />
           <p>
-            At AI Company Pvt. Ltd., our vision is to be the global leader in
-            providing innovative IT solutions that drive digital transformation
-            and business growth. We aim to empower businesses worldwide by
-            delivering cutting-edge technologies that unlock new opportunities,
-            enhance efficiency, and create sustainable success. By fostering a
-            culture of continuous innovation and excellence, we strive to be the
-            go-to partner for organizations seeking to stay ahead in a rapidly
-            evolving digital landscape.
+            At uTurn Technologies, our vision is to empower businesses worldwide
+            by crafting innovative digital experiences that drive growth and
+            evolution. We aim to be your trusted partner, delivering
+            user-centric, scalable solutions that harness cutting-edge
+            technologies like AI, automation, and custom software. By combining
+            creativity with technical expertise, we strive to help brands thrive
+            in a dynamic digital landscape, turning ideas into impactful
+            realities.
           </p>
           <div className="flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-10 pt-5">
             <Link to="/contact-us" className="primary-btn sm:w-fit w-full">
-              Request A Quote
+              Get In Touch
             </Link>
             <div className="flex gap-3 sm:justify-center sm:w-fit w-full">
               <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
                 <ImPhone size={25} className="text-white" />
               </div>
               <div className="flex flex-col capitalize">
-                <p className="">Call to ask any question</p>
-                <Link
-                  to={`tel:${companyDetails.phone}`}
-                  className="font-semibold"
-                >
-                  {companyDetails.phone}
+                <p className="">Call to discuss your project</p>
+                <Link to="tel:+1-XXX-XXX-XXXX" className="font-semibold">
+                  +1 (XXX) XXX-XXXX
                 </Link>
               </div>
             </div>
@@ -67,11 +64,9 @@ const AboutUs = () => {
           />
         </div>
         <div data-aos="fade-up" className="space-y-4">
-          <p className="uppercase text-primary text-center">
-            Our Mission
-          </p>
+          <p className="uppercase text-primary text-center">Our Mission</p>
           <h3 className="section-heading">
-            Innovating Today for a Smarter Tomorrow.
+            Crafting Solutions That Empower Your Growth
           </h3>
           <HrLine />
           <div
@@ -85,26 +80,25 @@ const AboutUs = () => {
             />
           </div>
           <p>
-            At AI Company, our mission is to drive digital excellence by
-            providing businesses with innovative, reliable, and tailored IT
-            solutions. We strive to bridge the gap between technology and
-            business success, empowering organizations to achieve their goals
-            through cutting-edge advancements in AI, web development, mobile
-            applications, and more. By fostering collaboration, embracing
-            innovation, and maintaining a client-first approach, we aim to
-            transform challenges into opportunities, enabling our clients to
-            thrive in a fast-paced, ever-evolving digital world.
+            At uTurn Technologies, our mission is to empower businesses by
+            delivering innovative, user-centric digital solutions that drive
+            growth and success. We bridge technology and business goals through
+            cutting-edge AI, web and app development, and automation,
+            transforming challenges into opportunities. With a focus on
+            collaboration and honest, results-driven work, we partner with you
+            to build scalable solutions that thrive in an ever-evolving digital
+            world.
           </p>
           <div className="flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-10 pt-5">
             <Link to="/contact-us" className="primary-btn sm:w-fit w-full">
-              Request A Quote
+              Get In Touch
             </Link>
             <div className="flex gap-3 sm:justify-center sm:w-fit w-full">
               <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
                 <ImPhone size={25} className="text-white" />
               </div>
               <div className="flex flex-col capitalize">
-                <p className="">Call to ask any question</p>
+                <p className="">Call to discuss your project</p>
                 <Link
                   to={`tel:${companyDetails.phone}`}
                   className="font-semibold"

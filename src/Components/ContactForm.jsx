@@ -11,35 +11,37 @@ const ContactForm = () => {
       <div className="grid md:grid-cols-[55%_auto] gap-7">
         <div data-aos="fade-up">
           <div className="space-y-4 text-start">
-            <p className="uppercase text-primary">request a quote</p>
+            <p className="uppercase text-primary">Get In Touch</p>
             <h3 className="section-heading">
-              Need A Free Quote? Please Feel Free to Contact Us
+              Ready to Bring Your Idea to Life? Contact Us Today
             </h3>
             <HrLine />
           </div>
           <div className="mt-5 grid sm:grid-cols-2 gap-3 sm:gap-5">
             <div className="">
               <TiArrowBack size={25} className="inline -mt-2 text-primary" />
-              <span className="font-bold ml-2">Reply within 24 hours</span>
+              <span className="font-bold ml-2">
+                Reply within one business day
+              </span>
             </div>
             <div className="">
               <ImPhone size={20} className="inline -mt-2 text-primary" />
-              <span className="font-bold ml-2">24 hrs telephone support</span>
+              <span className="font-bold ml-2">End-to-end project support</span>
             </div>
           </div>
           <p className="mt-5">
-            I'd be happy to provide you with a free quote! However, I would need
-            more information about what you need a quote for. Please provide
-            details about the product or service you're interested in, any
-            specific requirements, and any other relevant information, so I can
-            assist you in generating an accurate quote.
+            Looking to explore AI integration, launch a mobile app, or need a
+            conversion-ready website? Let’s discuss your project. At uTurn
+            Technologies, we specialize in custom solutions built around your
+            goals—no shortcuts, just results. Drop us a message, and we’ll
+            respond within a business day.
           </p>
           <div className="mt-7 flex gap-3 sm:justify-center sm:w-fit w-full">
             <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
               <ImPhone size={25} className="text-white" />
             </div>
             <div className="flex flex-col capitalize">
-              <p className="">Call to ask any question</p>
+              <p className="">Call to discuss your project</p>
               <Link
                 to={`tel:${companyDetails.phone}`}
                 className="font-semibold"

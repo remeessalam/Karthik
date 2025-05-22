@@ -43,32 +43,32 @@ export const companyDetails = {
 
 export const testimonials = [
   {
-    name: "Arjun Mehta",
-    designation: "CEO, Tech Innovators",
+    name: "Olivia R.",
+    designation: "Product Lead",
     image: require("../assets/images/testimonial/2.jpg"),
     review:
-      "The team at AI Company Pvt Ltd delivered a tailored web development solution that exceeded our expectations. Their attention to detail and innovative approach helped us create a highly engaging website. They were professional, met all deadlines, and provided exceptional post-launch support. We're thrilled with the results and how it positively impacted our online presence.",
+      "We were drowning in manual processes until the uTurn Technologies AI development team stepped in. Now our support and analytics workflows run like clockwork - faster and more accurate than ever, significantly boosting our efficiency.",
   },
   {
-    name: "Priya Sharma",
-    designation: "Product Manager, Appify Co.",
+    name: "Priya S.",
+    designation: "Co-Founder",
     image: require("../assets/images/testimonial/1.jpg"),
     review:
-      "Working with AI Company Pvt Ltd on our app development was a fantastic experience. They delivered a user-friendly app on time that exceeded our expectations. The team was highly responsive and flexible, and the final product was polished and ready for launch. We couldn’t be more pleased with the outcome.",
+      "Users are loving the new experience. The uTurn Technologies mobile app team was organized, quick, and spot-on with every feature. The app is smooth, secure, and has transformed how our customers interact with us.",
   },
   {
-    name: "Ravi Patel",
-    designation: "Founder, AI Ventures",
+    name: "James T.",
+    designation: "Marketing Director",
     image: require("../assets/images/testimonial/3.jpg"),
     review:
-      "AI Company Pvt Ltd’s AI development team delivered a cutting-edge solution that significantly improved our efficiency. Their expertise in AI and understanding of our business needs helped us automate key processes, providing valuable insights. The solution has been a major boost to our operations.",
+      "uTurn Technologies didn’t just design a pretty site - they built a performance engine. Speed, SEO, UX - all on point. Our website is now a conversion powerhouse, enhancing our online presence remarkably.",
   },
   {
-    name: "Arun Nair",
-    designation: "CTO, CodeWorks Inc.",
+    name: "Dana L.",
+    designation: "Technical Director",
     image: require("../assets/images/testimonial/4.jpg"),
     review:
-      "The software development services from AI Company Pvt Ltd were top-notch. They understood our requirements perfectly and delivered a high-quality, scalable solution on time. Their team was professional, responsive, and ensured that the product met all our expectations. We’re very satisfied with the result.",
+      "No fluff, no bloat - just the exact tools we needed, built from scratch. uTurn Technologies’ custom software development delivered a precise, scalable solution that perfectly fits our processes and growth plans.",
   },
 ];
 

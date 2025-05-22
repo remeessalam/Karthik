@@ -28,8 +28,10 @@ const Home = () => {
             data-aos="fade-up"
             className="wrapper flex flex-col text-center text-white gap-5 justify-center h-full"
           >
-            <p className="section-heading">Welcome to AI Company Pvt Ltd</p>
-            <h1 className="heading">Your Ultimate IT Solution Provider</h1>
+            <p className="section-heading">Welcome to uTurn Technologies</p>
+            <h1 className="heading">
+              Transforming Ideas into Intelligent Digital Solutions
+            </h1>
             <div className="flex sm:flex-row flex-col justify-center gap-5 mt-5">
               <Link to="/about-us" className="primary-btn">
                 Learn More
@@ -141,7 +143,7 @@ const Home = () => {
         <div className="wrapper grid md:grid-cols-2 gap-7">
           <div data-aos="fade-up" className="space-y-4">
             <p className="uppercase text-primary text-center md:text-start">
-              About us
+              About Us
             </p>
             <div className="md:hidden flex flex-col pb-3">
               <img
@@ -151,22 +153,24 @@ const Home = () => {
               />
             </div>
             <h3 className="section-heading">
-              Empowering Businesses Globally with Innovative IT Solutions
+              Transforming Ideas into Intelligent Digital Solutions
             </h3>
             <HrLine />
             <p>
-              AI Company Pvt Ltd is an Indian IT company that specializes in
-              delivering end-to-end technology solutions to businesses across
-              the globe. From strategy to implementation, we empower
-              organizations with innovative, cutting-edge solutions that drive
-              growth, efficiency, and digital transformation.
+              At uTurn Technologies, we're not just developers. We're problem
+              solvers, digital thinkers, and partners in your growth. What
+              started as a tight-knit team of tech enthusiasts has grown into a
+              full-fledged digital solutions company helping brands evolve with
+              technology. From building sleek mobile apps to integrating
+              cutting-edge AI and automation, we design solutions that make a
+              difference.
             </p>
             <div className="grid grid-cols-2 gap-5 pt-5">
               {[
-                "Award Winning",
-                "24/7 Support",
-                "Professional Staff",
-                "Fair Prices",
+                "Tailored Solutions",
+                "Expert Team",
+                "User-Centric Approach",
+                "End-to-End Services",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2">
                   <GiCheckMark size={25} className="text-primary" />
@@ -184,11 +188,8 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col">
                   <p className="">Call Us Now</p>
-                  <Link
-                    to={`tel:${companyDetails.phone}`}
-                    className="font-semibold"
-                  >
-                    {companyDetails.phone}
+                  <Link to="tel:+1-XXX-XXX-XXXX" className="font-semibold">
+                    +1 (XXX) XXX-XXXX
                   </Link>
                 </div>
               </div>
@@ -210,7 +211,7 @@ const Home = () => {
         >
           <p className="uppercase text-primary">Why Choose Us</p>
           <h3 className="section-heading">
-            We Are Here to Grow Your Business Exponentially
+            Building Solutions That Drive Your Business Forward
           </h3>
           <HrLine />
         </div>
@@ -221,11 +222,11 @@ const Home = () => {
                 <FaRegThumbsUp size={30} className="text-white" />
               </div>
               <div className="space-y-1">
-                <p className="font-bold text-lg">Best In Industry</p>
+                <p className="font-bold text-lg">Tailored Solutions</p>
                 <p>
-                  We are recognized as a leader in delivering top-notch IT
-                  solutions, trusted by businesses worldwide for our excellence
-                  and innovation.
+                  We understand that every business is unique, and we provide
+                  solutions customized to your specific needs for maximum
+                  efficiency and impact.
                 </p>
               </div>
             </div>
@@ -234,11 +235,11 @@ const Home = () => {
                 <FaAward size={30} className="text-white" />
               </div>
               <div className="space-y-1">
-                <p className="font-bold text-lg">Award Winning</p>
+                <p className="font-bold text-lg">Expert Team</p>
                 <p>
-                  With a proven track record of success, AI Company has been
-                  honored with multiple industry awards for innovation and
-                  outstanding service.
+                  Our team of experienced professionals is passionate about
+                  technology and innovation, delivering solutions that exceed
+                  expectations.
                 </p>
               </div>
             </div>
@@ -259,10 +260,11 @@ const Home = () => {
                 <FaPeopleGroup size={30} className="text-white" />
               </div>
               <div className="space-y-1">
-                <p className="font-bold text-lg">Professional Staff</p>
+                <p className="font-bold text-lg">User-Centric Approach</p>
                 <p>
-                  Our team of skilled professionals brings unmatched expertise
-                  and dedication, ensuring every project exceeds expectations.
+                  We prioritize user experience in every project, ensuring
+                  solutions that are intuitive, engaging, and drive
+                  satisfaction.
                 </p>
               </div>
             </div>
@@ -271,11 +273,10 @@ const Home = () => {
                 <LuHeartHandshake size={30} className="text-white" />
               </div>
               <div className="space-y-1">
-                <p className="font-bold text-lg">24/7 Support</p>
+                <p className="font-bold text-lg">End-to-End Services</p>
                 <p>
-                  Our dedicated support team is available around the clock to
-                  ensure seamless operations and quick resolution of your
-                  queries.
+                  From ideation to deployment, we offer comprehensive services
+                  to bring your vision to life with seamless execution.
                 </p>
               </div>
             </div>
