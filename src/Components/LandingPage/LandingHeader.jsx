@@ -62,7 +62,7 @@ const LandingHeader = () => {
             <img
               src={logo}
               alt="logo"
-              className="w-[6rem] object-contain cursor-pointer"
+              className="w-[8rem] object-contain cursor-pointer"
             />
           </Scroll>
           <div className="hidden md:flex items-center gap-7">

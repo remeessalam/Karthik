@@ -1,4 +1,4 @@
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/logo.webp";
 
 // services icons (website)
 // import { ReactComponent as icon1 } from "../assets/svg/services/AI Development.svg";
